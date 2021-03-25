@@ -41,6 +41,11 @@ body{
 .body{
     font-family: Montserrat, sans-serif;
 }
+.info_lan{
+    height: 50px;
+    background-color: white;
+    
+}
 /* HEADER */
 /* first nav bar */
 
@@ -63,9 +68,20 @@ li{
 }
 .right_menu ul li{
     display: inline-block;
-    color: rgb(119, 60, 38);
+    color: rgb(119, 38, 38);
 }
 
 /* Second nav bar*/
 
 
+.main_menu ul li{
+    display: inline-block;
+    color: black;
+}
+.logo{
+    float: left;
+}
+.main_menu{
+    float:right;
+
+}
