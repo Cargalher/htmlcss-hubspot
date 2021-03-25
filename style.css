@@ -10,7 +10,7 @@
     clear:both;
 }
 body{
-    color: aquamarine;
+    
     font-family: ;
     font-size: ;
 }
@@ -18,7 +18,7 @@ body{
 /* debug rules */
 .presettings header{
     height: 100px;
-    background-color: rgb(72, 128, 202);
+   
     /* background-image: url(./img/jumbotron.png);
     background-size: 1000px;
     background-repeat: no-repeat;
@@ -88,4 +88,8 @@ li{
 .main_menu{
     float:right;
 
+}
+
+li:first-child{
+    padding: 0;
 }
