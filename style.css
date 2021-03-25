@@ -46,6 +46,10 @@ body{
     background-color: white;
     
 }
+.main_info{
+    height: 50px;
+    background-color: aliceblue;
+}
 /* HEADER */
 /* first nav bar */
 
