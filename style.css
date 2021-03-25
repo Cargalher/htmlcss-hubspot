@@ -1,0 +1,31 @@
+/* RULES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aquamarine;
+    font-family: ;
+    font-size: ;
+}
+
+/* debug rules */
+.presettings header{
+    background-color: cornflowerblue;
+    height: 600px;
+}
+.presettings main{
+    background-color: rgb(22, 48, 97);
+    height: 2000px;
+}
+.presettings footer{
+    background-color: rgb(218, 216, 132);
+    height: 400px;
+}
+
+/* UTILITY RULES */
+.container{
+    width:80%;
+    margin:auto;
+}
