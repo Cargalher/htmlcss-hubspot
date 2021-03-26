@@ -16,15 +16,17 @@ a {
 body{
     /* font-family: 'Montserrat', sans-serif; */
     font-size: ;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 /* DEBUG rules */
 .presettings header{
     height: 140px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .presettings main{
     height: 2000px;
+    font-family: 'Montserrat', sans-serif;
 }
 .presettings footer{
     background-color: rgb(218, 216, 132);
@@ -143,7 +145,7 @@ li:first-child{
     left: 185px;
     top: 50px;
     color: #33475B;
-    width: 540px;
+    width: 625px;
 }
 .main_title h1{
     font-size: 50px;
@@ -152,6 +154,8 @@ li:first-child{
 margin-top: 35px;
 margin-bottom: 45px;
 line-height: 27px;
+font-size: 14px;
+font-weight: 600;
 }
 .bigfree_btn{
     border: 1px solid #FE775A;
@@ -163,4 +167,6 @@ line-height: 27px;
 }
 .title_subinfo{
 margin-top: 55px;
+font-size: 13px;
+font-weight: 500;
 }
