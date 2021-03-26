@@ -126,42 +126,25 @@ li:first-child{
 .section_one{
     position: relative;
     width: 45%;
+    
 }
 #site_main, .section_one{
     background-image: url(./img/jumbotron.png);
     background-position:top right;
     background-repeat: no-repeat;   
-    background-color: #FFF2EE;
+    background-color: #FFF4EF;
     
 }
+
 h1{
-    /* font-family: 'Montserrat', sans-serif; */
+   
     font-size: 50px;
     position: absolute;
     left: 185px;
     top: 50px;
     color: #33475B;
 }
-.section_one p{
-    position: absolute;
-    float: left;
-    left: 185px;
-    top: 200px;
-    font-family:'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-}
-.section_one a{
-    text-decoration: none;
-    position: absolute;
-    left: 185px;
-    top: 300px;
-    color: white;
-    border: 1px solid  #FE775A;
-    background-color: #FE775A;
-    padding: 20px;
-    border-radius: 5px;
-}
-.last_info_sct_one{
-   margin-top: 200px;
+.empty_bx{
+    background-color: #AFEBE4;
+    height: 70px;
 }
