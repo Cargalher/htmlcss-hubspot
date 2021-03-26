@@ -25,7 +25,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .presettings main{
-    height: 2000px;
+    height: 5000px;
     font-family: 'Montserrat', sans-serif;
 }
 .presettings footer{
@@ -179,6 +179,7 @@ font-weight: 500;
     background-color: #F4F9FD;
     padding-top: 60px;
 }
+/* 1st part-Rubik cube */
 .img_rubik{
     margin:0 auto;
     display: block;
@@ -187,8 +188,20 @@ font-weight: 500;
 .title_rubik, .txt_rubik{ 
 text-align: center;
 }
+.title_rubik{
 
-.text_rubik{
+}
+.txt_rubik{
     margin-top: 30px;
     line-height: 27px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* 2nd part-CRM form */
+.form_crm{
+
+margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
