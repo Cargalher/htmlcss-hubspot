@@ -175,7 +175,7 @@ font-weight: 500;
 /* <<<<<<<<<<<<<<<<<<<<<<Second section>>>>>>>>>>>>>>>>>>>>> */
 
 .section_two{
-    height: 600px;
+    height: 1800px;
     background-color: #F4F9FD;
     padding-top: 60px;
 }
@@ -199,9 +199,34 @@ text-align: center;
 }
 /* 2nd part-CRM form */
 .form_crm{
-
-margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    box-shadow: 8px 5px 20px #000;
+    height: 279px;
+    border-radius: 5px;
+    margin-top: 45px;
+    position:relative;
 }
+.img_book{
+    margin:0 auto;
+    display: block;
+    width: 132px;
+    position: absolute;
+    left: 106px;
+    top: 62px;
+}
+
+.learn_btn{
+    border: 1px solid #FE775A;
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color:#FE775A;
+    color: white;
+    position: absolute;
+    bottom: 65px;
+    left: 65px;
+}
+}
+  
