@@ -173,3 +173,22 @@ font-weight: 500;
 
 
 /* <<<<<<<<<<<<<<<<<<<<<<Second section>>>>>>>>>>>>>>>>>>>>> */
+
+.section_two{
+    height: 600px;
+    background-color: #F4F9FD;
+    padding-top: 60px;
+}
+.img_rubik{
+    margin:0 auto;
+    display: block;
+    width: 260px;
+}
+.title_rubik, .txt_rubik{ 
+text-align: center;
+}
+
+.text_rubik{
+    margin-top: 30px;
+    line-height: 27px;
+}
