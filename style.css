@@ -46,8 +46,11 @@ body{
     height: 70px;
     background-color:white;
 }
+
+
 /* HEADER */
-/* first nav bar */
+
+/* <<<<<<<<<<<<<<<<<<<<first nav bar >>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .left_menu{
     float:left;
@@ -81,25 +84,6 @@ li:first-child{
     /* border: 1px solid red; */
   
 }
-
-/* Second nav bar*/
-
-
-.main_menu ul li{
-    display: inline-block;
-    /* color: black; */
-    cursor: pointer;
-    
-}
-.logo{
-    float: left;
-    padding-top: 20px;
-}
-.main_menu{
-    float:right;
-
-}
-
 .search_icon{
     width: 15px;
     margin-right: 20px;
@@ -120,6 +104,24 @@ li:first-child{
     background-color:#FE775A;
     color: white;
     }
+
+/* <<<<<<<<<<Second nav bar>>>>>>>>>>>>>>>*/
+.main_menu ul li{
+    display: inline-block;
+    /* color: black; */
+    cursor: pointer;
+}
+.logo{
+    float: left;
+    padding-top: 20px;
+}
+.main_menu{
+    float:right;
+}
+
+/* MAIN */
+
+/* <<<<<<<<<<<<<<<<<<<<<<First section>>>>>>>>>>>>>>>>>>>>> */
 .section_one{
     position: relative;
     width: 45%;
