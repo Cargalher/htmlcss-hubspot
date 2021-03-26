@@ -131,6 +131,7 @@ li:first-child{
     background-image: url(./img/jumbotron.png);
     background-position:top right;
     background-repeat: no-repeat;   
+    background-color: #FFF2EE;
     
 }
 h1{
