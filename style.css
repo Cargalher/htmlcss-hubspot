@@ -41,7 +41,7 @@ body{
 .info_lan{
     height: 70px;
     background-color:  aliceblue;
-    
+    padding-top: 15px;
 }
 .main_info{
     height: 70px;
@@ -73,7 +73,7 @@ li:first-child{
 }
 .right_menu ul li{
     display: inline-block;
-    color: rgb(119, 38, 38);
+    /* color: rgb(119, 38, 38); */
     cursor: pointer;
     /* border: 1px solid red; */
   
@@ -84,7 +84,7 @@ li:first-child{
 
 .main_menu ul li{
     display: inline-block;
-    color: black;
+    /* color: black; */
     cursor: pointer;
     
 }
@@ -98,27 +98,27 @@ li:first-child{
 }
 .login_btn{
     background-color:white;
-    padding: 15px 20px;
-    border: 1px solid  rgb(119, 38, 38);
-    
+    font-weight: 600;
+    border: 1px solid #b96e45;;
+    color: #b96e45;
+    padding: 40px;
+    border-radius: 5px;
 }
 .free_btn{
-   
-    /* padding: 5px 5px; */
-    border: 1px solid rgb(119, 38, 38);
-    color:black;
+    color: white;
+    border: 1px solid  #b96e45;
+    background-color: #b96e45;
+    padding: 10px;
+    border-radius: 5px;
 }
 .section_one{
     position: relative;
-    width: 50%;
-
+    width: 45%;
 }
 #site_main, .section_one{
     background-image: url(./img/jumbotron.png);
     background-size: 2000px;
-    background-repeat: no-repeat;
-  
-    
+    background-repeat: no-repeat;   
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -128,8 +128,25 @@ h1{
     top: 50px;
 }
 .section_one p{
-    /* position: absolute;
+    position: absolute;
     float: left;
     left: 185px;
     top: 200px;
-} */
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.section_one a{
+    text-decoration: none;
+    position: absolute;
+    left: 185px;
+    top: 300px;
+    color: white;
+    border: 1px solid  #b96e45;
+    background-color: #b96e45;
+    padding: 20px;
+    border-radius: 5px;
+}
+.last_info_sct_one{
+   margin-top: 200px;
+}
