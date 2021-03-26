@@ -129,15 +129,6 @@ li:first-child{
     background-repeat: no-repeat;   
     background-color: #FFF4EF;
 }
-.main_title{
-    position: absolute;
-    left: 185px;
-    top: 50px;
-    color: #33475B;
-}
-.main_title h1{
-    font-size: 50px;
-}
 .empty_bx{
     width:100%;
     background-color: #AFEBE4;
@@ -146,4 +137,30 @@ li:first-child{
     bottom: -15px;
     border-top: 3px solid #33475B;
     border-bottom: 3px solid #33475B;
+}
+.main_title{
+    position: absolute;
+    left: 185px;
+    top: 50px;
+    color: #33475B;
+    width: 540px;
+}
+.main_title h1{
+    font-size: 50px;
+}
+.title_info{
+margin-top: 35px;
+margin-bottom: 45px;
+line-height: 27px;
+}
+.bigfree_btn{
+    border: 1px solid #FE775A;
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color:#FE775A;
+    color: white;
+}
+.title_subinfo{
+margin-top: 55px;
 }
