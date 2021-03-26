@@ -147,4 +147,6 @@ h1{
 .empty_bx{
     background-color: #AFEBE4;
     height: 70px;
+    position: absolute;
+    bottom:0;
 }
