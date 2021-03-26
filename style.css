@@ -33,13 +33,13 @@ body{
     margin:auto;
 }
 
-.info_lan{
+.navbar_top{
     height: 70px;
     background-color:  aliceblue;
     padding-top: 15px;
     border-bottom:1px solid #33475B;
 }
-.main_info{
+.navbar_bottom{
     height: 70px;
     background-color:white;
 }
@@ -49,15 +49,19 @@ body{
 
 /* <<<<<<<<<<<<<<<<<<<<first nav bar >>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.left_menu{
+.left_menu, .right_menu{
     float:left;
+    width:50%;
     
 }
 .right_menu{
-    float:right;
+    text-align: right;
 }
-ul{
+    
+
+#site_header ul li{
     list-style-type: none;
+    display: inline-block;
 }
 li{
     padding: 15px;
@@ -125,8 +129,9 @@ li:first-child{
 }
 #site_main, .section_one{
     background-image: url(./img/jumbotron.png);
-    background-size: 2000px;
+    background-position:top right;
     background-repeat: no-repeat;   
+    
 }
 h1{
     /* font-family: 'Montserrat', sans-serif; */
