@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color:#33475B;
+}
 .clearfix::after{
     content:"";
     display: table;
@@ -74,9 +78,9 @@ li:first-child{
     color: black;
     cursor: pointer;
 }
-/* .left_menu ul > li:first-child > a{
-    /* padding-right: 15px;                            
-    border-right: 1px solid #33475B; */
+ .left_menu ul > li:first-child > a{
+    padding-right: 15px;                            
+    border-right: 1px solid #33475B;
 }
 .right_menu ul li{
     display: inline-block;
@@ -88,6 +92,7 @@ li:first-child{
 .search_icon{
     width: 15px;
     margin-right: 20px;
+    color:#2DB4C9;
     
 }
 .btn{
@@ -96,12 +101,12 @@ li:first-child{
     border-radius: 5px;
     font-size: 14px;
 }
-.btn, .login_btn{
-    border: 1px solid #FE775A;
+.btn.login_btn{
+    
     background-color: white;
     color: #FE775A;
 }
-.btn, .free_btn{
+.btn.free_btn{
     background-color:#FE775A;
     color: white;
     }
@@ -125,7 +130,7 @@ li:first-child{
 /* <<<<<<<<<<<<<<<<<<<<<<First section>>>>>>>>>>>>>>>>>>>>> */
 .section_one{
     position: relative;
-    width: 45%;
+    height: 679px;
     
 }
 #site_main, .section_one{
@@ -136,15 +141,17 @@ li:first-child{
     
 }
 
-h1{
-   
-    font-size: 50px;
+.main_title{
     position: absolute;
     left: 185px;
     top: 50px;
     color: #33475B;
 }
+.main_title h1{
+    font-size: 50px;
+}
 .empty_bx{
+    width:100%;
     background-color: #AFEBE4;
     height: 70px;
     position: absolute;
