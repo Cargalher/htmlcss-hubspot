@@ -262,4 +262,9 @@ font-weight: 600
 #site_main ul li{
     list-style-type: none;
     display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+}
+.check_ic{
+color: #FE775A;
 }
