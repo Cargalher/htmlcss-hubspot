@@ -36,7 +36,6 @@ body{
     width:80%;
     margin:auto;
 }
-
 .navbar_top{
     height: 70px;
     background-color:  aliceblue;
@@ -51,18 +50,15 @@ body{
 
 /* HEADER */
 
-/* <<<<<<<<<<<<<<<<<<<<first nav bar >>>>>>>>>>>>>>>>>>>>>>>>*/
+/* <<<<<<<<<<<<<<<<<<<<Nav bar Top>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .left_menu, .right_menu{
     float:left;
     width:50%;
-    
 }
 .right_menu{
     text-align: right;
 }
-    
-
 #site_header ul li{
     list-style-type: none;
     display: inline-block;
@@ -84,16 +80,12 @@ li:first-child{
 }
 .right_menu ul li{
     display: inline-block;
-    /* color: rgb(119, 38, 38); */
     cursor: pointer;
-    /* border: 1px solid red; */
-  
 }
 .search_icon{
     width: 15px;
     margin-right: 20px;
     color:#2DB4C9;
-    
 }
 .btn{
     border: 1px solid #FE775A;
@@ -111,7 +103,7 @@ li:first-child{
     color: white;
     }
 
-/* <<<<<<<<<<Second nav bar>>>>>>>>>>>>>>>*/
+/* <<<<<<<<<<Nav Bar Bottom>>>>>>>>>>>>>>>*/
 .main_menu ul li{
     display: inline-block;
     /* color: black; */
@@ -124,23 +116,19 @@ li:first-child{
 .main_menu{
     float:right;
 }
-
 /* MAIN */
 
 /* <<<<<<<<<<<<<<<<<<<<<<First section>>>>>>>>>>>>>>>>>>>>> */
 .section_one{
     position: relative;
     height: 679px;
-    
 }
 #site_main, .section_one{
     background-image: url(./img/jumbotron.png);
     background-position:top right;
     background-repeat: no-repeat;   
     background-color: #FFF4EF;
-    
 }
-
 .main_title{
     position: absolute;
     left: 185px;
@@ -153,7 +141,9 @@ li:first-child{
 .empty_bx{
     width:100%;
     background-color: #AFEBE4;
-    height: 70px;
+    height: 85px;
     position: absolute;
-    bottom:0;
+    bottom: -15px;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
 }
