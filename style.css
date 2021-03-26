@@ -11,8 +11,9 @@
 }
 body{
     
-    font-family: ;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* debug rules */
@@ -35,9 +36,7 @@ body{
     width:80%;
     margin:auto;
 }
-.body{
-    
-}
+
 .info_lan{
     height: 70px;
     background-color:  aliceblue;
@@ -71,6 +70,10 @@ li:first-child{
     color: black;
     cursor: pointer;
 }
+/* .left_menu ul > li:first-child > a{
+    /* padding-right: 15px;                            
+    border-right: 1px solid #33475B; */
+}
 .right_menu ul li{
     display: inline-block;
     /* color: rgb(119, 38, 38); */
@@ -96,21 +99,27 @@ li:first-child{
     float:right;
 
 }
-.login_btn{
-    background-color:white;
-    font-weight: 600;
-    border: 1px solid #b96e45;;
-    color: #b96e45;
-    padding: 40px;
-    border-radius: 5px;
+
+.search_icon{
+    width: 15px;
+    margin-right: 20px;
+    
 }
-.free_btn{
-    color: white;
-    border: 1px solid  #b96e45;
-    background-color: #b96e45;
+.btn{
+    border: 1px solid #FE775A;
     padding: 10px;
     border-radius: 5px;
+    font-size: 14px;
 }
+.btn, .login_btn{
+    border: 1px solid #FE775A;
+    background-color: white;
+    color: #FE775A;
+}
+.btn, .free_btn{
+    background-color:#FE775A;
+    color: white;
+    }
 .section_one{
     position: relative;
     width: 45%;
@@ -121,11 +130,12 @@ li:first-child{
     background-repeat: no-repeat;   
 }
 h1{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 50px;
     position: absolute;
     left: 185px;
     top: 50px;
+    color: #33475B;
 }
 .section_one p{
     position: absolute;
@@ -142,8 +152,8 @@ h1{
     left: 185px;
     top: 300px;
     color: white;
-    border: 1px solid  #b96e45;
-    background-color: #b96e45;
+    border: 1px solid  #FE775A;
+    background-color: #FE775A;
     padding: 20px;
     border-radius: 5px;
 }
