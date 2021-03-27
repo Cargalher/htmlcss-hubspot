@@ -268,3 +268,28 @@ font-weight: 600
 .check_ic{
 color: #FE775A;
 }
+
+/* 3rd part Features-three columns */
+.features{
+    margin: auto;
+    width: 20%;
+    border: 1px solid black;
+    height: 500px;
+    border-radius: 5px;
+   
+    /* position: relative; */
+    background-color: #33475B;
+    
+}
+
+
+.images{
+    width: auto;
+    height: 200px;
+}
+.ftr_col{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 40px;
+}
