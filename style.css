@@ -68,7 +68,7 @@ body{
 li{
     padding: 15px;
 }
-li:first-child{
+#site_header li:first-child{
     padding: 0;
 }
 .left_menu ul li{
@@ -332,8 +332,12 @@ font-weight: 600;
     margin-bottom: 29px;
     display: block;
 }  */
-.col_list>ul{
-    display: block;
+#site_main ul li, .col_list{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 35px;
 }
 
 .hr_col{
@@ -353,4 +357,18 @@ font-weight: 600;
 }
 .ftr_col.right{
     float: right;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<Second section>>>>>>>>>>>>>>>>>>>>> */
+.title_community{
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+}
+.text_community{
+font-size:10px;
+text-align: center;
+color: white
 }
