@@ -232,7 +232,7 @@ font-size: 30px;
 .right_form{
     position: absolute;
     right: 51px;
-    width: 671px;
+    width: 779px;
     top: 58px;
     text-align: justify;
 }
@@ -245,7 +245,8 @@ font-weight: 700;
 .txt_frm {
 margin-bottom: 20px;
 font-size: 13px;
-font-weight: 600
+font-weight: 600;
+width: 578px;
 }
 .subtl_frm{
     font-size: 16px;
@@ -254,16 +255,18 @@ font-weight: 600
 }
 .hrz_rule{
     position: absolute;
-    right: 52px;
-    top: 125px;
+    right: 123px;
+    top: 140px;
     width: 406px;
     border: 1px solid #899397;
 }
-#site_main ul li{
+
+#site_main ul li, .frm_list{
     list-style-type: none;
     display: inline-block;
     font-size: 13px;
     font-weight: 600;
+    margin-right: 35px;
 }
 .check_ic{
 color: #FE775A;
