@@ -271,7 +271,7 @@ color: #FE775A;
 
 /* 3rd part Features-three columns */
 .features{
-    position: relative;
+   
 } 
 
 .images_col{
@@ -280,27 +280,29 @@ color: #FE775A;
 }
 .ftr_col{
     float: left;
-    width: 20%;
+    width: 30%;
     text-align: center;
     
     
     margin-top: 55px;
-    box-shadow: 8px 5px 20px lightgray;
+    box-shadow: 8px 5px 20px #000;
+    border-radius: 5%;
     height: 718px;
 }
 h3, .title_col{
-    font-size: 30px;
+    font-size: 19px;
+font-weight: 700;
     line-height:40px;
-    color:#7CBB02;
+    color:#33475B;
 }
 .text_col{
     line-height: 21px;
     font-size: 13px;
-    font-weight: 600;
+font-weight: 600;
     margin-top: 30px;
     margin-bottom: 45px;
-    width: 45%;
-    margin-left: 154px;
+    width: 86%;
+    margin-left: 22px;
 }
 
 .title_columns:hover{
@@ -320,21 +322,32 @@ h3, .title_col{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.col_list{
+/* .col_list{
     width: 67%;
     text-align: justify;
     line-height: 15px;
     margin-bottom: 29px;
-} 
-
+    display: block;
+}  */
+.col_list>ul{
+    display: block;
+}
 
 .hr_col{
-    width: 291px;
-    margin-left: 40px;
+    width: 235px;
+    margin-left: 35px;
 }
 
 .section_three{
     height: 800px;
     background-color: #00B6AC;
     padding-top: 60px;
+}
+.ftr_col.central{
+   float: left;
+   margin-left: 5%;
+   
+}
+.ftr_col.right{
+    float: right;
 }
