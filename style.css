@@ -271,25 +271,66 @@ color: #FE775A;
 
 /* 3rd part Features-three columns */
 .features{
-    margin: auto;
-    width: 20%;
-    border: 1px solid black;
-    height: 500px;
-    border-radius: 5px;
-   
-    /* position: relative; */
-    background-color: #33475B;
-    
+    position: relative;
 }
 
-
-.images{
-    width: auto;
+.images_col{
+    width: 115px;
     height: 200px;
 }
 .ftr_col{
     float: left;
     width: 20%;
     text-align: center;
-    padding-top: 40px;
+    position: absolute;
+    left: 247px;
+    
+    margin-top: 55px;
+    box-shadow: 8px 5px 20px lightgray;
+    height: 718px;
+}
+h3, .title_col{
+    font-size: 30px;
+    line-height:40px;
+    color:#7CBB02;
+}
+.text_col{
+    line-height: 21px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.title_columns:hover{
+    color: blue;
+}
+.learn_btn_col{
+border: 1px solid #FE775A;
+padding: 20px 35px;
+border-radius: 5px;
+font-size: 12px;
+font-weight: 600;
+background-color: #FE775A;
+color: white;
+
+}
+.subtl_col{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.col_list{
+    margin-bottom: 172px;
+    width: 304px;
+    display: block;
+    text-align: justify;
+    margin-left: 21px;
+    position: absolute;
+    left: 14px;
+} 
+}
+.hr_col{
+    width: 291px;
+    margin-left: 40px;
+}
 }
