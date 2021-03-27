@@ -175,7 +175,7 @@ font-weight: 500;
 /* <<<<<<<<<<<<<<<<<<<<<<Second section>>>>>>>>>>>>>>>>>>>>> */
 
 .section_two{
-    height: 1800px;
+    height: 1535px;
     background-color: #F4F9FD;
     padding-top: 60px;
 }
@@ -272,7 +272,7 @@ color: #FE775A;
 /* 3rd part Features-three columns */
 .features{
     position: relative;
-}
+} 
 
 .images_col{
     width: 115px;
@@ -282,8 +282,7 @@ color: #FE775A;
     float: left;
     width: 20%;
     text-align: center;
-    position: absolute;
-    left: 247px;
+    
     
     margin-top: 55px;
     box-shadow: 8px 5px 20px lightgray;
@@ -300,19 +299,21 @@ h3, .title_col{
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 45px;
+    width: 45%;
+    margin-left: 154px;
 }
 
 .title_columns:hover{
     color: blue;
 }
 .learn_btn_col{
-border: 1px solid #FE775A;
-padding: 20px 35px;
-border-radius: 5px;
-font-size: 12px;
-font-weight: 600;
-background-color: #FE775A;
-color: white;
+    border: 1px solid #FE775A;
+    padding: 20px 35px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #FE775A;
+    color: white;
 
 }
 .subtl_col{
@@ -320,11 +321,20 @@ color: white;
     margin-bottom: 25px;
 }
 .col_list{
-    
+    width: 67%;
+    text-align: justify;
+    line-height: 15px;
+    margin-bottom: 29px;
 } 
-}
+
+
 .hr_col{
     width: 291px;
     margin-left: 40px;
 }
+
+.section_three{
+    height: 800px;
+    background-color: #00B6AC;
+    padding-top: 60px;
 }
