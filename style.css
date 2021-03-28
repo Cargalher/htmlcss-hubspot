@@ -125,7 +125,8 @@ li{
     background-image: url(./img/jumbotron.png);
     background-position:top right;
     background-repeat: no-repeat;   
-    background-color: #FFF4EF;
+    background-color: #FFF2EE;
+    
 }
 .empty_bx{
     width:100%;
@@ -352,7 +353,7 @@ font-weight: 600;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<Third section>>>>>>>>>>>>>>>>>>>>> */
 .title_community{
-    font-size: 26px;
+    font-size: 38px;
     text-align: center;
     color: white;
     font-weight: 700;
@@ -360,14 +361,14 @@ font-weight: 600;
 }
 
 .text_community{
-font-size:15px;
+    font-size: 18px;
 text-align: center;
 color: white;
 line-height: 28px;
 }
 .top_row, .btm_row{
     height: 190px;
-    width: 47%;
+    width: 66%;
     text-align: center;
     margin-left: 23%;
     margin-top: 65px;
@@ -429,3 +430,53 @@ line-height: 28px;
 .txt_logo{
     font-size: 10px;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<Third section>>>>>>>>>>>>>>>>>>>>> */
+
+.section_four{
+    height:800px;
+    background-color:white;
+}
+.numbers_companies{
+    float: left;
+    margin-left: 5%;
+    margin-top: 34px;
+}
+
+
+    
+}
+   .title_nmb{
+    font-size: 45px;
+    font-weight: 600;
+    color: #33475B;
+}
+.txt_nmb{
+    line-height: 24px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.logo_companies{
+    float:right;  
+    margin-top: -6%;
+    margin-right: 10%;
+}
+.log_imgs{
+    width: 143px;
+    margin: 18px;
+}
+.start_txt{
+    width: 25%;
+    margin-left: 10%;
+    font-size: 13px;
+    line-height: 24px;
+}
+.start_title{
+    margin-top: 76px;
+}
+.woman_img{
+    float: right;
+    width: 18%;
+    margin-right: 10%;
+    margin-top: -5%;
