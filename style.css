@@ -324,11 +324,11 @@ font-weight: 600;
     display: block;
 }  */
 .col_list ul li{
-    list-style-type: none;
+    
     display: block;
     font-size: 13px;
     font-weight: 600;
-    margin-right: 35px;
+    
     text-align: left;
 }
 
@@ -350,7 +350,7 @@ font-weight: 600;
 .ftr_col.right{
     float: right;
 }
-/* <<<<<<<<<<<<<<<<<<<<<<Second section>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<Third section>>>>>>>>>>>>>>>>>>>>> */
 .title_community{
     font-size: 26px;
     text-align: center;
@@ -364,4 +364,37 @@ font-size:15px;
 text-align: center;
 color: white;
 line-height: 28px;
+}
+.top_row{
+    height: 190px;
+    width: 43%;
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 65px;
+}
+.top_row, .top_row_one{
+   float: left;
+   border-right:3px solid black;
+   height: 190px;
+   
+   
+}
+
+.top_row, .top_row_two{  
+    float: left;
+    border-right:3px solid black;
+   height: 190px;
+  
+}
+.top_row, .top_row_three{
+  float: left;
+  height: 190px;
+
+}
+.top_row, .top_row_four{
+    float:left;
+    border-left:3px solid black;
+    height: 190px;
+    
 }
