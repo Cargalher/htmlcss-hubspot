@@ -443,9 +443,6 @@ line-height: 28px;
     margin-top: 34px;
 }
 
-
-    
-}
    .title_nmb{
     font-size: 45px;
     font-weight: 600;
@@ -458,15 +455,15 @@ line-height: 28px;
     font-size: 13px;
 }
 .logo_companies{
-    float:right;  
-    margin-top: -6%;
-    margin-right: 10%;
+    float: right;
+    margin-top: -8%;
+    margin-right: 21%;
 }
 .log_imgs{
     width: 143px;
     margin: 18px;
 }
-.start_txt{
+.wmn_left{
     width: 25%;
     margin-left: 10%;
     font-size: 13px;
@@ -474,9 +471,18 @@ line-height: 28px;
 }
 .start_title{
     margin-top: 76px;
+    font-size: 25px;
 }
 .woman_img{
     float: right;
-    width: 18%;
-    margin-right: 10%;
-    margin-top: -5%;
+    width: 16%;
+    margin-right: 17%;
+    margin-top: -12%;
+}
+ }
+ .wmn_txt_left{
+    margin-bottom: 50px;
+ }
+ .wmn_lastline{
+    margin-top: 50px;
+ }
