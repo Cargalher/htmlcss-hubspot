@@ -367,56 +367,56 @@ line-height: 28px;
 }
 .top_row, .btm_row{
     height: 190px;
-    width: 58%;
-    
+    width: 47%;
     text-align: center;
     margin-left: 23%;
     margin-top: 65px;
     color:white;
+    line-height: 42px;
+    padding: 24px;
+   
+   
 }
 .top_row{
     border-bottom: 1px solid white;
 }
 .top_row, .top_row_one{
    float: left;
-   border-right:1px solid white;
-   height: 190px;
-   padding: 24px;
-   
-   
+   margin-right: 132px;
+  
 }
 
 .top_row, .top_row_two{  
     float: left;
-    border-right:1px solid white;
-   height: 190px;
-   padding: 24px;
-  
+    margin-right: 132px;
 }
 .top_row, .top_row_three{
   float: left;
-  height: 190px;
-  padding: 24px;
-
+  margin-right: 132px;
 }
+
 .top_row, .top_row_four{
     float:left;
-    border-left:1px solid white;
-    height: 190px;
-   padding: 24px;
-    
+   
+}
+.btm_row{
+    margin-left: 24%;
 }
 .btm_row, .btm_row_one{
     float: left; 
+    margin-right: 132px;
 }
 .btm_row, .btm_row_two{
     float: left; 
+    margin-right: 169px;
 }
 .btm_row, .btm_row_three{
     float: left; 
+    margin-right: 129px;
 }
 .btm_row, .btm_row_four{
     float: left; 
+    
 }
 
 .logo_col{
