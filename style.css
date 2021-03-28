@@ -365,14 +365,17 @@ text-align: center;
 color: white;
 line-height: 28px;
 }
-.top_row{
+.top_row, .btm_row{
     height: 190px;
     width: 58%;
-    border-bottom: 1px solid white;
+    
     text-align: center;
-    margin-left: 30%;
+    margin-left: 23%;
     margin-top: 65px;
     color:white;
+}
+.top_row{
+    border-bottom: 1px solid white;
 }
 .top_row, .top_row_one{
    float: left;
@@ -402,4 +405,27 @@ line-height: 28px;
     height: 190px;
    padding: 24px;
     
+}
+.btm_row, .btm_row_one{
+    float: left; 
+}
+.btm_row, .btm_row_two{
+    float: left; 
+}
+.btm_row, .btm_row_three{
+    float: left; 
+}
+.btm_row, .btm_row_four{
+    float: left; 
+}
+
+.logo_col{
+    width: 82px;
+    height: 40px;
+}
+.big_num{
+    font-size: 35px;
+}
+.txt_logo{
+    font-size: 10px;
 }
