@@ -479,7 +479,7 @@ margin-bottom: 50px;
  /* SITE FOOTER */
 
 
- /* First section */
+ /* First section_footer info */
 .footer_info{
     text-align:left;
     color:white;
@@ -492,6 +492,9 @@ margin-bottom: 50px;
     float: left;
     padding:10px;
     width: 25%;
+   
+}
+.col_footer .footer_main_lst{
     list-style-type: none;
 }
 .btn_footer{
@@ -507,12 +510,19 @@ margin-bottom: 50px;
    
     display: inline-block;
 }
-  /* Second section */
+  /* Second section_footer languages */
+
+.footer_lan .lan_list{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+}
 
 
-
-
-
+.logo_footer .logo_list{
+   display: inline-block;
+  
+}
 
 
    /* Third section */
