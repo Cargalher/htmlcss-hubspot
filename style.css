@@ -396,7 +396,7 @@ margin-bottom: 50px;
     border-right: none;
 }
 
-.learn_row_item:last-child{
+.learn_row:last-child{
     border-bottom:none;
 }
 
