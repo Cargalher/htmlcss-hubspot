@@ -512,10 +512,11 @@ margin-bottom: 50px;
 }
   /* Second section_footer languages */
 
-.footer_lan .lan_list{
+.footer_lan ul .lan_list{
     list-style-type: none;
     display: inline-block;
     color: white;
+    text-align: center;
 }
 
 
@@ -525,4 +526,18 @@ margin-bottom: 50px;
 }
 
 
-   /* Third section */
+   
+   /* 3rd section_copyright */
+   .footer_copy{
+       color:white;
+   }
+   .left_copy{
+       float: left;
+   }
+   .right_copy{
+       float: left;
+
+   }
+   .right_copy .copy_list{
+       list-style-type: none;
+   }
