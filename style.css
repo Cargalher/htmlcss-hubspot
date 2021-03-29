@@ -279,8 +279,8 @@ color: #FE775A;
     width: 30%;
     text-align: center;
     margin-top: 55px;
-    box-shadow: 8px 5px 20px #000;
-    border-radius: 5%;
+    box-shadow:  1px 2px 12px #c5c5c5;
+    border-radius: 1%;
     height: 718px;
 }
 h3, .title_col{
@@ -351,7 +351,7 @@ font-weight: 600;
 /* <<<<<<<<<<<<<<<<<<<<<<Third section>>>>>>>>>>>>>>>>>>>>> */
 .section_three{
     height: 636px;
-    background-color: #00B6AC;
+    background: linear-gradient(90deg, #00A4BC 0%, #00BAA9 100%);
     padding-top: 60px;
 }
 .title_community{
