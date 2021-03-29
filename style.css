@@ -25,7 +25,7 @@ a {
 }
 .presettings footer{
     background-color: #32495B;
-    height: 1000px;
+    height: 1031px;
 }
 
 /* UTILITY RULES */
@@ -59,10 +59,9 @@ a {
 #site_header ul li{
     list-style-type: none;
     display: inline-block;
+     padding: 15px;
 }
-li{
-    padding: 15px;
-}
+
 #site_header li:first-child{
     padding: 0;
 }
@@ -492,6 +491,7 @@ margin-bottom: 50px;
     float: left;
     padding:10px;
     width: 25%;
+    line-height: 30px;
    
 }
 .col_footer .footer_main_lst{
@@ -522,6 +522,7 @@ margin-bottom: 50px;
 
 .logo_footer .logo_list{
    display: inline-block;
+   list-style-type: none;
   
 }
    
