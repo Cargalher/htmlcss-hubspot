@@ -517,12 +517,14 @@ margin-bottom: 50px;
     display: inline-block;
     color: white;
     text-align: center;
+    padding-right: 20px;
 }
 
 
 .logo_footer ul li{
    display: inline-block;
    list-style-type: none;
+   padding-right: 23px;
   
 }
    
@@ -541,4 +543,5 @@ margin-bottom: 50px;
    .right_copy ul li{
        list-style-type: none;
        display: inline-block;
+       margin-right: 20px;
    }
