@@ -461,10 +461,11 @@ margin-bottom: 50px;
     float: left;
     width: 50%;
 }
-}
+
 .woman_img{
     float: right;
     width: 20%;
+    margin-right: 12%;
  }
  .wmn_txt_left{
     margin-bottom: 50px;
