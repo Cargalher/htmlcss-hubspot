@@ -24,8 +24,8 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 .presettings footer{
-    background-color: rgb(218, 216, 132);
-    height: 400px;
+    background-color: #32495B;
+    height: 800px;
 }
 
 /* UTILITY RULES */
@@ -478,13 +478,15 @@ margin-bottom: 50px;
 
  /* SITE FOOTER */
 
- #site_footer{
-     background-color: #32495B;
- }
 
  /* First section */
 .footer_info{
     text-align:left;
+    color:white;
+}
+.tl_col_footer{
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .footer_info .col_footer{
     float: left;
@@ -493,13 +495,13 @@ margin-bottom: 50px;
     list-style-type: none;
 }
 .btn_footer{
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid white;
+  
     border-radius: 5px;
     font-size: 14px;
     background-color: white;
-    color: black;
-    width: 37%;
+    color:  #32495B;
+    width: 49%;
 }
 .logo_footer{
    
