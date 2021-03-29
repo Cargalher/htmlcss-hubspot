@@ -483,11 +483,28 @@ margin-bottom: 50px;
  }
 
  /* First section */
-
-
-
- 
-
+.footer_info{
+    text-align:left;
+}
+.footer_info .col_footer{
+    float: left;
+    padding:10px;
+    width: 25%;
+    list-style-type: none;
+}
+.btn_footer{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    width: 37%;
+}
+.logo_footer{
+   
+    display: inline-block;
+}
   /* Second section */
 
 
