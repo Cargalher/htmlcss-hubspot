@@ -21,7 +21,6 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 .presettings main{
-    height: 5000px;
     font-family: 'Montserrat', sans-serif;
 }
 .presettings footer{
@@ -122,7 +121,7 @@ li{
     height: 679px;
 }
 #site_main, .section_one{
-    background-image: url(./img/jumbotron.png);
+    background-image: url(../img/jumbotron.png);
     background-position:top right;
     background-repeat: no-repeat;   
     background-color: #FFF2EE;
@@ -434,7 +433,7 @@ line-height: 28px;
 /* <<<<<<<<<<<<<<<<<<<<<<Third section>>>>>>>>>>>>>>>>>>>>> */
 
 .section_four{
-    height:800px;
+    height: 553px;
     background-color:white;
 }
 .numbers_companies{
@@ -456,11 +455,11 @@ line-height: 28px;
 }
 .logo_companies{
     float: right;
-    margin-top: -8%;
-    margin-right: 21%;
+    margin-top: -9%;
+    margin-right: 24%;
 }
 .log_imgs{
-    width: 143px;
+    width: 114px;
     margin: 18px;
 }
 .wmn_left{
@@ -475,9 +474,9 @@ line-height: 28px;
 }
 .woman_img{
     float: right;
-    width: 16%;
+    width: 14%;
     margin-right: 17%;
-    margin-top: -12%;
+    margin-top: -16%;
 }
  }
  .wmn_txt_left{
@@ -485,4 +484,10 @@ line-height: 28px;
  }
  .wmn_lastline{
     margin-top: 50px;
+ }
+
+
+ /* SITE FOOTER */
+ #site_footer{
+     background-color: #32495B;
  }
