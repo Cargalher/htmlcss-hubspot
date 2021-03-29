@@ -394,24 +394,8 @@ line-height: 28px;
     border-right: none;
 }
 
-.btm_row{
-    margin-left: 24%;
-}
-.btm_row, .btm_row_one{
-    float: left; 
-    margin-right: 132px;
-}
-.btm_row, .btm_row_two{
-    float: left; 
-    margin-right: 169px;
-}
-.btm_row, .btm_row_three{
-    float: left; 
-    margin-right: 129px;
-}
-.btm_row, .btm_row_four{
-    float: left; 
-    
+.learn_row_item:last-child{
+    border-bottom:none;
 }
 
 .logo_col{
