@@ -25,7 +25,7 @@ a {
 }
 .presettings footer{
     background-color: #32495B;
-    height: 655px;
+    height: 463px;
 }
 
 /* UTILITY RULES */
@@ -155,10 +155,10 @@ font-weight: 600;
 }
 .bigfree_btn{
     border: 1px solid #FE775A;
-    padding: 20px 35px;
+    padding: 17px 30px;
     border-radius: 5px;
-    font-size: 14px;
-    background-color:#FE775A;
+    font-size: 12px;
+    background-color: #FE775A;
     color: white;
 }
 .title_subinfo{
@@ -233,7 +233,6 @@ font-size: 30px;
     text-align: justify;
 }
 .title_frm{
-margin-top: 20px;
 margin-bottom: 20px;
 font-size: 19px;
 font-weight: 700;
@@ -248,6 +247,7 @@ width: 578px;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .hrz_rule{
     position: absolute;
@@ -317,26 +317,25 @@ font-weight: 600;
 .subtl_col{
     margin-top: 25px;
     margin-bottom: 25px;
+    font-size: 17px;
+    text-transform: uppercase;
 }
-/* .col_list{
-    width: 67%;
-    text-align: justify;
-    line-height: 15px;
-    margin-bottom: 29px;
-    display: block;
-}  */
+
 .col_list ul li{
     
     display: block;
     font-size: 13px;
     font-weight: 600;
-    
+    margin-left: 30px;
     text-align: left;
 }
 
 .hr_col{
-    width: 235px;
-    margin-left: 25%;
+    width: 387px;
+    margin-left: 6%;
+    border: none;
+    height: 2px;
+    background: black;
 }
 
 
@@ -355,7 +354,7 @@ font-weight: 600;
     padding-top: 60px;
 }
 .title_community{
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
     color: white;
     font-weight: 700;
@@ -363,7 +362,7 @@ font-weight: 600;
 }
 
 .text_community{
-    font-size: 18px;
+    font-size: 15px;
 text-align: center;
 color: white;
 line-height: 28px;
@@ -391,6 +390,7 @@ margin-bottom: 50px;
    padding:10px;
    width: 25%;
   border-right: 1px solid white;
+  line-height: 44px;
 }
 .learn_row_item:last-child{
     border-right: none;
@@ -505,6 +505,7 @@ margin-bottom: 50px;
     background-color: white;
     color:  #32495B;
     width: 49%;
+    text-align: center;
 }
 .logo_footer{
    
@@ -516,11 +517,12 @@ margin-bottom: 50px;
     list-style-type: none;
     display: inline-block;
     color: white;
-    text-align: center;
     padding-right: 20px;
 }
 
-
+.footer_lan{
+    text-align: center;
+}
 .logo_footer ul li{
    display: inline-block;
    list-style-type: none;
