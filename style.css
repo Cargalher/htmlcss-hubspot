@@ -499,7 +499,7 @@ margin-bottom: 50px;
 }
 .btn_footer{
     border: 1px solid white;
-  
+    margin-top: 10px;
     border-radius: 5px;
     font-size: 14px;
     background-color: white;
@@ -525,9 +525,12 @@ margin-bottom: 50px;
    display: inline-block;
    list-style-type: none;
    padding-right: 23px;
+   margin-top: 10px;
   
 }
-   
+   .ft_hr{
+    width: 98.5%;
+   }
    /* 3rd section_copyright */
    .footer_copy{
        color:white;
