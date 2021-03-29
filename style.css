@@ -339,11 +339,7 @@ font-weight: 600;
     margin-left: 25%;
 }
 
-.section_three{
-    height: 800px;
-    background-color: #00B6AC;
-    padding-top: 60px;
-}
+
 .ftr_col.central{
    float: left;
    margin-left: 5%;
@@ -353,6 +349,11 @@ font-weight: 600;
     float: right;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<Third section>>>>>>>>>>>>>>>>>>>>> */
+.section_three{
+    height: 636px;
+    background-color: #00B6AC;
+    padding-top: 60px;
+}
 .title_community{
     font-size: 38px;
     text-align: center;
@@ -366,6 +367,7 @@ font-weight: 600;
 text-align: center;
 color: white;
 line-height: 28px;
+margin-bottom: 50px;
 }
 .top_row, .btm_row{
     height: 190px;
