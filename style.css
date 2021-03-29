@@ -52,6 +52,8 @@ a {
 .left_menu, .right_menu{
     float:left;
     width:50%;
+    font-size: 14px;
+    font-weight: 600;
 }
 .right_menu{
     text-align: right;
@@ -59,7 +61,7 @@ a {
 #site_header ul li{
     list-style-type: none;
     display: inline-block;
-     padding: 15px;
+    padding: 10px;
 }
 
 #site_header li:first-child{
@@ -77,17 +79,19 @@ a {
 .right_menu ul li{
     display: inline-block;
     cursor: pointer;
+    margin-right: 22px;
 }
 .search_icon{
     width: 15px;
-    margin-right: 20px;
+    margin-bottom: -5px;
     color:#2DB4C9;
 }
 .btn{
     border: 1px solid #FE775A;
     padding: 10px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 600;
 }
 .btn.login_btn{
     
@@ -110,7 +114,11 @@ a {
     padding-top: 20px;
 }
 .main_menu{
-    float:right;
+    float: right;
+    margin-top: 17px;
+    font-size: 14px;
+    font-weight: 600;
+
 }
 
 /* MAIN */
@@ -144,7 +152,8 @@ a {
     width: 625px;
 }
 .main_title h1{
-    font-size: 50px;
+    font-size: 42px;
+    font-weight: 700;
 }
 .title_info{
 margin-top: 35px;
@@ -518,6 +527,7 @@ margin-bottom: 50px;
     display: inline-block;
     color: white;
     padding-right: 20px;
+    margin-bottom: 15px;
 }
 
 .footer_lan{
