@@ -25,7 +25,7 @@ a {
 }
 .presettings footer{
     background-color: #32495B;
-    height: 1031px;
+    height: 655px;
 }
 
 /* UTILITY RULES */
@@ -512,7 +512,7 @@ margin-bottom: 50px;
 }
   /* Second section_footer languages */
 
-.lan_list{
+.footer_lan ul li{
     list-style-type: none;
     display: inline-block;
     color: white;
@@ -540,4 +540,5 @@ margin-bottom: 50px;
    }
    .right_copy .copy_list{
        list-style-type: none;
+       display: inline-block;
    }
