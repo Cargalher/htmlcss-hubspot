@@ -217,6 +217,7 @@ margin-bottom: 25px;
 .dropdown_res {
     position: relative;
     display: inline-block;
+    
   }
 .res_dropdown-content {
     display: none;
@@ -230,6 +231,7 @@ margin-bottom: 25px;
     font-size: 14px;
     line-height: 20px;
     right: -98px;
+    height: 450px;
 
   }
   
