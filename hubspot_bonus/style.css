@@ -238,7 +238,25 @@ margin-bottom: 25px;
     color: rebeccapurple;
     text-decoration: underline;
   }
-
+.content_res{
+    position: relative;
+   
+}
+.res_left{
+    position: absolute;
+    float: left;
+  
+}
+.res_mid{
+    position: absolute;
+    float: left;
+    
+}
+.res_right{
+    position: absolute;
+    float: right;
+    
+}
 /* MAIN */
 
 /* <<<<<<<<<<<<<<<<<<<<<<First section>>>>>>>>>>>>>>>>>>>>> */
