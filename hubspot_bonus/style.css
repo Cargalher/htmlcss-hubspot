@@ -158,7 +158,10 @@ a {
     display: block;
   }
 
-
+.nw_bdg{
+    border:1px solid green;
+    border-radius: 1px;
+}
 
 
 
