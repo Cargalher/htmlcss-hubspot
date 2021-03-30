@@ -100,12 +100,13 @@ a {
     background-color:#FE775A;
     color: white;
     }
-    .dropdown_lan {
+    /* dropdown_languages */
+.dropdown_lan {
         position: relative;
         display: inline-block;
       }
       
-      .lan_dropdown-content {
+.lan_dropdown-content {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
@@ -115,7 +116,7 @@ a {
         z-index: 1;
       }
       
-      .dropdown_lan:hover .lan_dropdown-content {
+.dropdown_lan:hover .lan_dropdown-content {
         display: block;
       }
 /* <<<<<<<<<<Nav Bar Bottom>>>>>>>>>>>>>>>*/
@@ -134,6 +135,32 @@ a {
     font-size: 14px;
     font-weight: 600;
 }
+/* dropdown_main menu */
+
+.dropdown_sftwr {
+    position: relative;
+    display: inline-block;
+  }
+  
+.sftwr_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 30px 35px;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+.dropdown_sftwr:hover .sftwr_dropdown-content {
+    display: block;
+  }
+
+
+
+
 
 /* MAIN */
 
