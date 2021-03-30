@@ -158,13 +158,27 @@ a {
 .dropdown_sftwr:hover .sftwr_dropdown-content {
     display: block;
   }
-
+.img_software{
+    width: 10px;
+}
 .nw_bdg{
     border:1px solid green;
     border-radius: 1px;
 }
-
-
+.software_list{
+    margin-bottom: 25px;
+    
+}
+/* .image_software{
+float:left;
+} */
+.info_software{
+float:right;
+margin-bottom: 20px;
+}
+.hr_sftwr{
+    margin-bottom: 20px;
+}
 
 /* MAIN */
 
