@@ -162,8 +162,13 @@ a {
     width: 10px;
 }
 .nw_bdg{
-    border:1px solid green;
-    border-radius: 1px;
+    border: 1px solid #00BDA5;
+    border-radius: 5px;
+    background-color: #00BDA5;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 7px;
 }
 .software_list{
     margin-bottom: 25px;
