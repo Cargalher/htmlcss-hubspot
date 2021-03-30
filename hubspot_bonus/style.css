@@ -110,15 +110,21 @@ a {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        min-width: 160px;
+        min-width: 99px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         padding: 12px 16px;
         z-index: 1;
       }
       
 .dropdown_lan:hover .lan_dropdown-content {
-        display: block;
-      }
+        display: block;  
+}
+.dropdown_lan:hover{
+        color: rebeccapurple;
+        text-decoration: underline;  
+}
+
+
 /* <<<<<<<<<<Nav Bar Bottom>>>>>>>>>>>>>>>*/
 
 .main_menu ul li{
@@ -136,7 +142,18 @@ a {
     font-weight: 600;
 }
 /* dropdown_main menu */
-
+/* common  */
+.txt_small{
+    font-size: 10px;
+    font-weight: 400;
+    
+}
+.title_drop{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+/* software dropdown */
 .dropdown_sftwr {
     position: relative;
     display: inline-block;
@@ -192,13 +209,36 @@ margin-bottom: 20px;
 .hr_sftwr{
     margin: 20px 0;
 }
-.sftwr_small{
-    font-size: 10px;
-    font-weight: 400;
-}
-.sftwr_middle .sftwr_small{
+
+.sftwr_middle .txt_small{
 margin-bottom: 25px;
 }
+/* dropdown_resources */
+.dropdown_res {
+    position: relative;
+    display: inline-block;
+  }
+.res_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 464px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    padding: 30px 35px;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+.dropdown_res:hover .res_dropdown-content {
+    display: block;  
+  }
+  .dropdown_res:hover{
+    color: rebeccapurple;
+    text-decoration: underline;
+  }
+
 /* MAIN */
 
 /* <<<<<<<<<<<<<<<<<<<<<<First section>>>>>>>>>>>>>>>>>>>>> */
