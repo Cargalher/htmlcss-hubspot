@@ -152,7 +152,7 @@ a {
     z-index: 1;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    
+    line-height: 20px;
   }
   
 .dropdown_sftwr:hover .sftwr_dropdown-content {
@@ -175,15 +175,19 @@ float:left;
 .info_software{
 float:right;
 margin-bottom: 20px;
-line-height: 34px;
+}
+.info_software>a{
+    font-weight: 800;
 }
 .hr_sftwr{
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 .sftwr_small{
     font-size: 10px;
-    margin-top: -10px;
-    line-height: 34px;
+    font-weight: 400;
+}
+.sftwr_middle .sftwr_small{
+margin-bottom: 25px;
 }
 /* MAIN */
 
