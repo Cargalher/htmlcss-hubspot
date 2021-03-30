@@ -265,7 +265,7 @@ margin-bottom: 25px;
     height: 679px;
 }
 #site_main, .section_one{
-    background-image: url(../img/jumbotron.png);
+    background-image: url(./img/jumbotron.png);
     background-position:top right;
     background-repeat: no-repeat;   
     background-color: #FFF2EE;
